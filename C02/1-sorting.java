@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	String[] cont=new String[3];
 	Scanner obk =new Scanner(System.in);
 	System.out.println("Enter any 5 names:");
-	for(int i=0;i<3;i++)
+	for(int i=0;i<5;i++)
 	{
 		cont[i]=obk.nextLine();
 	}
