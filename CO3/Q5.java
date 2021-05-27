@@ -19,14 +19,14 @@ class student {
 }
 
 class sports extends student{
-	int athletics,football,basketball;
+	String athletics,football,basketball;
 	public sports() {
-		System.out.println("Enter the mark of athletics");
-		athletics=sc.nextInt();
-		System.out.println("Enter the mark of football");
-		football=sc.nextInt();
-		System.out.println("Enter the mark of basketball");
-		basketball=sc.nextInt();
+		System.out.println("Enter the grade of athletics");
+		athletics=sc.next();
+		System.out.println("Enter the grade of football");
+		football=sc.next();
+		System.out.println("Enter the grade of basketball");
+		basketball=sc.next();
 	}
 }
 
@@ -34,12 +34,15 @@ class result extends sports{
 	public result() {
 		
 	}
+	
+	int total=maths+english+science;
 	void display(){
-		System.out.println("------Marklist of "+name+"------");
+		System.out.println("------Academic Record of "+name+"------");
 		System.out.println("Subject ");
 		System.out.println("Maths :=> "+maths);
 		System.out.println("English :=> "+english);
 		System.out.println("Science :=> "+science);
+		System.out.println("Total :=> "+total);
 		System.out.println("--Sports-- ");
 		System.out.println("Athletics :=> "+athletics);
 		System.out.println("Football :=> "+football);
