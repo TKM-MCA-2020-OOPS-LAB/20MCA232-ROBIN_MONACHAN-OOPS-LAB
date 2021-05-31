@@ -41,9 +41,9 @@ class Rectangle implements process{
 		Scanner obj=new Scanner(System.in);
 		
 		System.out.println("Enter The Length of Rectangle");
-		int l=obj.nextInt();
+		 l=obj.nextInt();
 		System.out.println("Enter The Breadth of Rectangle");
-		int b=obj.nextInt();
+		 b=obj.nextInt();
 		//area1=l*b;
 		//premeter1=2*(l+b);
 	}
@@ -54,7 +54,7 @@ class Rectangle implements process{
 		
 	}
 	public void premeter() {
-		//premeter1=2*(l+b);
+		premeter1=2*(l+b);
 		System.out.println("Premeter of Rectangle:"+premeter1);
 	}
 }
