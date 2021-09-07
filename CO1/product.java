@@ -1,4 +1,3 @@
-package TestPK;
 
 public class product{
     int pcode;
